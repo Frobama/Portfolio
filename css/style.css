@@ -171,6 +171,9 @@ h2{
 .container3{
     background-color:#011a38;
     padding:0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container3 > h2{
