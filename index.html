@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio</title>
+    <link href="./css/style.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gugi&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <nav class="navBar">
+            <img src="./assets/BR.png" height="100px">
+            <button id="menu-toggle">
+            ☰
+            </button>
+            <nav class="links" id="menu">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </nav>
+    </header>
+    <section class="container2 hero gradient-background">
+        <div class="hero-content">
+            <h1 style="color: white;">&ltPortfolio/></h1>
+            <p style="color: #c8b1e4;">of a Software Developer</p>
+        </div>
+    </section>
+
+    <!--Presentation-->
+    <section class="gradient-background2" id="about">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-12 col-sm-12 col-lg-6" style="justify-items: center;"> <img src="./assets/pc.webp" class="d-block mx-lg-auto img-fluid"
+                        alt="computer" width="250" height="500" loading="lazy"> </div>
+                <div class="col-lg-6">
+                    <h1 style="color:white;" class="display-5 fw lh-1 mb-3">Hello World!
+                    </h1>
+                    <p style="color: #c8b1e4;" class="lead">I’m Benjamin Rojas, a 20-year-old aspiring computer engineer. Always with a cup of coffee in hand, I’m constantly looking to
+                        expand my programming toolkit and improve my development skills.</p>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Education and Experience-->
+    <section>
+        <div class="edex">
+            <div class="row flex align-items-center">
+                <div class="col-12 col-sm-6" style="justify-items: center;">
+                    <div class="edex-cont">
+                    <h2 style="margin-top: 10px;">&ltEducation/></h2>
+                    <p> Civil Computer and informatics Engineer</p> 
+                    <p style="margin-left: 5%;">Universidad Católica del Norte<br>
+                        2023 - present
+                    </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6" style="justify-items: center;">
+                    <div class="edex-cont">
+                    <h2 style="margin-top: 10px;">&ltExperience/></h2>
+                    <p> Programming Tutor<p> 
+                    <p style="margin-left: 5%;">I teach Python to other students at my University<br>
+                       2024 - present
+                    </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!--Skills and Tools-->
+    <section id="skills" class="skills-section edex">
+        <h2>&ltSkills and Tools/></h2>
+        <div class="row flex align-items-center">
+            <div class="col-12 col-sm-3" style="justify-items: center; text-align: center;">
+                <img src="./assets/computadora.png" style="height: 140px;" alt="computer">
+            </div>
+            <div class="col-12 col-sm-9 skills-grid">
+                <div class="skill">
+                    <img src="./assets/python.png" alt="Python">
+                    <span>Python</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/java.png" alt="Java">
+                    <span>Java</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/c++.svg" alt="C++">
+                    <span>C++</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/postgresql.png" alt="PostgreSQL">
+                    <span>PostgreSQL</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/html.png" alt="HTML">
+                    <span>HTML</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/css.png" alt="CSS">
+                    <span>CSS</span>
+                </div>
+                <div class="skill">
+                    <img src="./assets/vscode.png" alt="VS Code">
+                    <span>VS Code</span>
+                </div>
+
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!--Projects-->
+    <div class="container3 swiper edex" id="projects">
+        <h2>&ltProjects/></h2>
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+                <div class="card-item swiper-slide">
+                    <img src="./assets/aquasaver.png" alt="Aquasaver logo" class="project-image">
+                    <h2 class="project-name">AquaSaver</h2>
+                    <p class="project-description">An app that helps farmers calculate optimal irrigation times, taking into account weather and field data, thus avoiding water waste and promoting the sustainable use of water resources.</p>
+
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="./assets/mondrian.png" alt="Mondrian painting" class="project-image">
+                    <h2 class="project-name">Mondrian Project</h2>
+                    <p class="project-description">Practiced with the Grid display to recreate a Mondrian painting.</p>
+                    
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="./assets/tindog.png" alt="tindog" class="project-image">
+                    <h2 class="project-name">TinDog</h2>
+                    <p class="project-description">Mockup for a dating service for dogs. Website made with Bootstrap</p>
+                    
+                </div>
+
+                 
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+            
+        </div>
+    </div>
+
+    <!--Contact info-->
+    <div class="contact" id="contact">
+        <h3 style="font-family: Gugi, sans-serif;">&ltGet in contact/></h3>
+        <a href="mailto:benja.ro.esp@gmail.com"><img src="./assets/gmail.webp"></a>
+        <a href="https://www.linkedin.com/in/benjamin-rojas-espejo-a2a332150"><img src="./assets/linkedin.png"></a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script src="./js/navbar.js"></script>
+</body>
+
+</html>
